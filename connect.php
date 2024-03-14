@@ -2,9 +2,6 @@
 $dsn = "mysql:host=localhost;dbname=talkit" ; 
 $user = "root" ;
 $pass = "" ; 
-/*$dsn = "mysql:host=localhost;dbname=id21000612_talkit" ; 
-$user = "id21000612_mirtalkit" ;
-$pass = "talkiT/123" ; */
 $option = array(
     PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES UTF8" // FOR Arabic
 );
